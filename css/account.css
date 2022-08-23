@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark: #232830;
+  --very-light-pink: #c7c7c7;
+  --dark-background: #d8d8d8;
+  --text-input-field: #e7e7e7;
+  --hospital-green: #acd9b2;
+  --green-sheen: #58ada1;
+  --vsm: 1.1rem;
+  --sm: 1.4rem;
+  --md: 1.6rem;
+  --lg: 1.8rem;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (min-width: 450px) {
+    .container{
+        display: grid;
+        place-self: center;
+    }
+  
+    .button-bottom {
+      margin-bottom: 10rem;
+    }
+  }

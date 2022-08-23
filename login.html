@@ -5,32 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="shortcut icon" href="./assets/logos/favicon_yard_sale.svg" type="image/x-icon">
-    
-    <title>Yard | new password</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/logos/favicon_yard_sale.svg"
+      type="image/x-icon"
+    />
+
+    <title>Yard | Login</title>
   </head>
   <body>
     <main class="container">
       <section class="container-form">
         <img src="./assets/logos/logo_yard_sale.svg" alt="" class="logo" />
-        <h1 class="title">Create a new password</h1>
-        <p class="subtitle">Enter a new password for your account</p>
+
         <form action="/" class="form">
+          <label for="email">Email address</label>
+          <input id="email" type="email" class="input input-email" placeholder="johndoe@email.com" />
           <label for="password">Password</label>
-          <input id="password" type="password" class="input input-password" />
-          <label for="new-password">Confirm password</label>
+          <input id="password" type="password" class="input input-password" placeholder="********************"/>
           <input
-            id="new-password"
-            type="password"
-            class="input input-password"
-          />
-          <input
-            class="button primary-button phover"
+            class="primary-button button phover"
             type="button"
             value="Confirm password"
           />
-          
         </form>
+          <a class="sm-text link" href="#">Forgot password?</a>
+        <button class="button secondary-button shover button-bottom">Sign up</button>
       </section>
     </main>
   </body>

@@ -23,6 +23,18 @@
   font-family: "Quicksand", sans-serif;
 }
 
+header{
+  width: 100%;
+  height: 8vh;
+}
+
+.container-nav {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 92vh;
+}
+
 .container {
   display: grid;
   place-items: center;
@@ -33,9 +45,17 @@
 .container-form {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  place-items: center;
   width: 90vw;
   max-width: 400px;
+}
+
+
+.place-center{
+  place-items: center;
+}
+
+.full{
+  height: 100%;
 }
 
 .logo {
@@ -61,6 +81,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-top: 1rem;
 }
 
 label {
